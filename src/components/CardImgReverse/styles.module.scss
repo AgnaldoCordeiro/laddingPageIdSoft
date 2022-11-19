@@ -1,0 +1,117 @@
+.subContainer {
+
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0rem;
+  margin: 0;
+
+  gap: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px 8px 24px 24px;
+  gap: 25px;
+  margin: -2.5rem;
+
+  width: 403px;
+  height: 208.23px;
+
+  background: #FFFFFF;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+
+
+}
+
+.imagem {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin-left: -10.5rem;
+
+  padding: 3rem;
+}
+
+.tituloCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+
+  width: 276px;
+  height: 141px;
+
+  h6 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    /* Rosa escuro */
+
+    color: #980138;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  p {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    /* Roxo */
+
+    color: #311629;
+
+  }
+
+
+  a {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Rosa escuro */
+
+    color: #980138;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+    i {
+      margin-left: 1rem;
+    }
+  }
+}

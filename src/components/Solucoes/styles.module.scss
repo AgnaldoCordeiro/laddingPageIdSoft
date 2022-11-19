@@ -8,6 +8,7 @@
 }
 
 .titulo {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,38 +52,15 @@
   }
 }
 
-.subContainer {
-  width: auto;
-  height: auto;
-
+.containerCards {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
 }
 
-.cardContainer {
-  display: flex;
-  flex-direction: row;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
-
-
-  div img {
-    width: 300px;
-    height: 300px;
-    z-index: 1;
-  }
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 24px 8px 24px 12px;
-  gap: 32px;
-
-  width: 457px;
-  height: 246px;
-
-  /* Sombra leve */
-
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
+.cards {
+  margin-top: 3.5rem;
+  padding-left: 3rem;
+  padding-right: 2rem;
 }

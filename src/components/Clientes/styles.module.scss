@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  background: #ffffff;
+  color: #311629;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardContainer{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+.titulo{
+ 
+  h6{
+    margin-bottom: -2rem;    
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+
+  }
+
+}

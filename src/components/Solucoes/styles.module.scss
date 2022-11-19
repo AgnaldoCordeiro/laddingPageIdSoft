@@ -1,19 +1,17 @@
 .container {
   background: #F3F2F2;
-  height: 100vh;
+  height: 130vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 
 .titulo {
-  margin-top: 2rem;
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px;
+  padding: 2rem;
   gap: 12px;
 
   h4 {
@@ -53,14 +51,23 @@
 }
 
 .containerCards {
-  width: 100%;
   display: flex;
-  gap: 1rem;
-  padding: 2rem;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 10px;
+
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
 }
 
 .cards {
-  margin-top: 3.5rem;
+  margin-top: 4rem;
   padding-left: 3rem;
   padding-right: 2rem;
 }

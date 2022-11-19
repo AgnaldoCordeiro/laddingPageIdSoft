@@ -9,6 +9,9 @@ interface CardProps {
 export function CardImgReverse({ title, img, subTexto }: CardProps) {
   return (
     <div className={styles.subContainer}>
+      <div className={styles.imagem}>
+        <img src={img} alt={title} width="320px" height="320px" />
+      </div>
       <div className={styles.card}>
         <div className={styles.tituloCard}>
           <h6>{title}</h6>
@@ -19,9 +22,7 @@ export function CardImgReverse({ title, img, subTexto }: CardProps) {
           </i> </a>
         </div>
       </div>
-      <div className={styles.imagem}>
-        <img src={img} alt={title} width="320px" height="320px" />
-      </div>
+      
     </div>
   )
 }

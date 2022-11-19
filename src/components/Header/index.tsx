@@ -99,7 +99,7 @@ export default function Header(props: any) {
       <Toolbar id="back-to-top-anchor" />
 
       <ScrollTop {...props}>
-        <Fab color="primary" size="small" aria-label="scroll back to top">
+        <Fab sx={{color: "#980138"}} size="small" aria-label="scroll back to top">
           <KeyboardArrowUpIcon />
         </Fab>
       </ScrollTop>

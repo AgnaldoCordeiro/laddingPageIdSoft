@@ -1,0 +1,88 @@
+.container {
+  background: #F3F2F2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  h4 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+
+    /* Roxo */
+
+    color: #311629;
+  }
+
+  p {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Roxo */
+
+    color: #311629;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+
+.subContainer {
+  width: auto;
+  height: auto;
+
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+
+
+  div img {
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 24px 8px 24px 12px;
+  gap: 32px;
+
+  width: 457px;
+  height: 246px;
+
+  /* Sombra leve */
+
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}

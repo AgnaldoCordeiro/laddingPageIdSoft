@@ -1,0 +1,50 @@
+.container {
+  height: 35vh;
+  background-color: #980138;
+  color: #FFFFFF;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.subContainer {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 8px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+
+  svg {
+    margin: 0.5rem;
+  }
+}
+
+.copering {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

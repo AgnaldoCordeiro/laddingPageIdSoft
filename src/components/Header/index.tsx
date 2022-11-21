@@ -74,19 +74,19 @@ export default function Header(props: any) {
                   <a href="/" className="active">Quem somos</a>
                 </li>
                 <li>
-                  <a href="/">Benefícios</a>
+                  <a href="/.#beneficios">Benefícios</a>
                 </li>
                 <li>
-                  <a href="/">Soluções</a>
+                  <a href="/.#solucoes">Soluções</a>
                 </li>
                 <li>
-                  <a href="/">Clientes</a>
+                  <a href="/.#clientes">Clientes</a>
                 </li>
                 <li>
-                  <a href="/">Depoimentos</a>
+                  <a href="/.#depoimentos">Depoimentos</a>
                 </li>
                 <li>
-                  <a href="/">Contato</a>
+                  <a href="/.#contato">Contato</a>
                 </li>
                 <li>
                   <button>ENTRAR EM CONTATO</button>
@@ -99,7 +99,7 @@ export default function Header(props: any) {
       <Toolbar id="back-to-top-anchor" />
 
       <ScrollTop {...props}>
-        <Fab sx={{color: "#980138"}} size="small" aria-label="scroll back to top">
+        <Fab sx={{ color: "#980138" }} size="small" aria-label="scroll back to top">
           <KeyboardArrowUpIcon />
         </Fab>
       </ScrollTop>

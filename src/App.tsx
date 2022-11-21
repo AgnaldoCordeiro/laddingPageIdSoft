@@ -3,12 +3,13 @@ import { Beneficios } from './components/Beneficios'
 import { Clientes } from './components/Clientes'
 import { Contato } from './components/Contato'
 import { Depoimentos } from './components/Depoimentos'
-import { Formulario } from './components/Formulario'
+import { Footer } from './components/Footer'
 import Header from './components/Header'
 import { Home } from './components/home'
 import { Solucoes } from './components/Solucoes'
 
 function App() {
+
 
   return (
     <>
@@ -19,8 +20,10 @@ function App() {
       <Clientes />
       <Depoimentos />
       <Contato />
+      <Footer />
     </>
   )
 }
 
 export default App
+

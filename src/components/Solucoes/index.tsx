@@ -10,7 +10,7 @@ import { CardImgReverse } from '../CardImgReverse';
 
 export function Solucoes() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="solucoes">
       <div className={styles.titulo}>
         <h4>Conheça algumas de nossas soluções</h4>
         <p>A inteligência artificial é altamente versátil podendo ser utilizada em qualquer área</p>

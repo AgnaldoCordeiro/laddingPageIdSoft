@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 export function Depoimentos() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="depoimentos">
       <div className={styles.subContainer}>
 
         <div className={styles.titulo}>

@@ -11,25 +11,25 @@ import styles from "./styles.module.scss";
 
 export function Clientes() {
   return (
-    <section className={styles.container}>
-     <div className={styles.titulo}>
-      <h6>Nossos clientes</h6>
-     </div>
-    <div > 
-    <div className={styles.cardContainer}>
-      <CardCliente alt='4.Dias Branco' img={cliente1}/>    
-      <CardCliente alt='SENAI' img={cliente2}/>    
-      <CardCliente alt='SAO CARLOS IMAGEM' img={cliente3}/>    
-   </div> 
+    <section className={styles.container} id="clientes">
+      <div className={styles.titulo}>
+        <h6>Nossos clientes</h6>
+      </div>
+      <div >
         <div className={styles.cardContainer}>
-      <CardCliente alt='Grupo Control Engenaria' img={cliente4}/>    
-      <CardCliente alt='Embrapa' img={cliente5}/>    
-      <CardCliente alt='RJ Distribuidora' img={cliente6}/>    
+          <CardCliente alt='4.Dias Branco' img={cliente1} />
+          <CardCliente alt='SENAI' img={cliente2} />
+          <CardCliente alt='SAO CARLOS IMAGEM' img={cliente3} />
+        </div>
+        <div className={styles.cardContainer}>
+          <CardCliente alt='Grupo Control Engenaria' img={cliente4} />
+          <CardCliente alt='Embrapa' img={cliente5} />
+          <CardCliente alt='RJ Distribuidora' img={cliente6} />
 
         </div>
-    </div>
+      </div>
 
-    
+
 
     </section>
   )

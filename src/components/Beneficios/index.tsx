@@ -11,7 +11,7 @@ import { CardBeneficios } from "../Card";
 
 export function Beneficios() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="beneficios">
       <div className={styles.subContainer}>
 
         <div>

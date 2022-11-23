@@ -1,0 +1,60 @@
+.container {
+  height: calc(100vh - 5rem);
+  background: #311629;
+  transform: rotate(-0.03deg);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.subContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: url('../../assets/layer2.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top left;
+  width: 1240.02px;
+  height: 60vh;
+  background-position-x: 20%;
+  background-position-y: 55%;
+  transform: rotate(-0.03deg);
+
+  h3 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+.titulo {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  margin: 5rem;
+
+  /* Branco */
+
+  color: #FFFFFF;
+
+  transform: rotate(-0.03deg);
+}
+
+.valoresContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 27px;
+
+  transform: rotate(-0.03deg);
+}

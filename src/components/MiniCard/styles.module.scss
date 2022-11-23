@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 63.16px;
+  height: 97.03px;
+
+  margin: 2rem;
+
+  transform: rotate(-0.03deg);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+
+  img {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  p {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Branco */
+
+    color: #FFFFFF;
+
+    transform: rotate(-0.03deg);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}

@@ -10,6 +10,7 @@ import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Zoom from "@mui/material/Zoom";
 import styles from "./styles.module.scss";
 import { Typography } from "@mui/material";
+import { Link } from 'react-router-dom'
 
 
 function ScrollTop(props: any) {
@@ -71,10 +72,10 @@ export default function Header(props: any) {
               </Typography>
               <ul>
                 <li>
-                  <a href="/" className="active">Quem somos</a>
+                  <Link to="/QuemSomos">Quem somos</Link>
                 </li>
                 <li>
-                  <a href="/.#beneficios">Benefícios</a>
+                  <a href="/.#beneficios">Benefícios</a >
                 </li>
                 <li>
                   <a href="/.#solucoes">Soluções</a>

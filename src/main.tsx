@@ -1,10 +1,23 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
+import { Footer } from './components/Footer'
+import Header from './components/Header'
 import './index.scss'
+
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import { QuemSomos } from './components/QuemSomos'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/QuemSomos" element={<QuemSomos />} />
+        <Route path="*" element={<App />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   </React.StrictMode>
 )

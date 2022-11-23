@@ -12,7 +12,7 @@ import styles from "./styles.module.scss";
 import { Typography } from "@mui/material";
 import { Link } from 'react-router-dom'
 
-
+/* 
 function ScrollTop(props: any) {
   const { children, window } = props;
   const trigger = useScrollTrigger({
@@ -51,7 +51,7 @@ ScrollTop.propTypes = {
   children: PropTypes.element.isRequired,
   window: PropTypes.func,
 };
-
+ */
 export default function Header(props: any) {
   return (
     <React.Fragment>
@@ -72,7 +72,7 @@ export default function Header(props: any) {
               </Typography>
               <ul>
                 <li>
-                  <Link to="/QuemSomos">Quem somos</Link>
+                  <Link to="QuemSomos">Quem somos</Link>
                 </li>
                 <li>
                   <a href="/.#beneficios">Benefícios</a >
@@ -99,11 +99,11 @@ export default function Header(props: any) {
       </AppBar>
       <Toolbar id="back-to-top-anchor" />
 
-      <ScrollTop {...props}>
+      {/*  <ScrollTop {...props}>
         <Fab sx={{ color: "#980138" }} size="small" aria-label="scroll back to top">
           <KeyboardArrowUpIcon />
         </Fab>
-      </ScrollTop>
+      </ScrollTop> */}
     </React.Fragment>
   );
 }

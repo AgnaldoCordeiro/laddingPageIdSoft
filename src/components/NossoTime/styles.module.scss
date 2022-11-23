@@ -1,29 +1,32 @@
 .container {
-  height: calc(100vh - 5rem);
-  background: #311629;
+  height: 100vh;
+  background: #FFFFFF;
   transform: rotate(-0.03deg);
-  color: #fff;
+
+  background: url('../../assets/Group49.svg'),
+    url('../../assets/Group41.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top left, bottom right;
+
+  color: #311629;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
+
 
 }
 
 .subContainer {
+
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background: url('../../assets/layer2.svg');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: top left;
-  width: auto;
-  height: 60vh;
-  background-position-x: 20%;
-  background-position-y: 55%;
   transform: rotate(-0.03deg);
+
+  margin: 1rem;
 
   h3 {
     display: flex;
@@ -33,6 +36,7 @@
 
 
 .titulo {
+
   font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 700;
@@ -41,20 +45,18 @@
   text-align: center;
   margin: 5rem;
 
-  /* Branco */
-
-  color: #FFFFFF;
-
   transform: rotate(-0.03deg);
 }
 
-.valoresContainer {
+.timeContainer {
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 27px;
+  align-items: center;
+  padding: 0;
+  gap: 44px;
 
-  transform: rotate(-0.03deg);
+  width: 1240.57px;
+  height: 260.67px;
 }

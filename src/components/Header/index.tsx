@@ -68,7 +68,8 @@ export default function Header(props: any) {
                 </i>
               </label>
               <Typography>
-                <label>IDSoft</label>
+                <Link to="/"><label>IDSoft</label></Link>
+
               </Typography>
               <ul>
                 <li>

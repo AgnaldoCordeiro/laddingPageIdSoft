@@ -7,10 +7,10 @@ export function Formulario() {
 
     emailjs
       .sendForm(
-        import.meta.env.EMAILJS_SERVICE,
-        import.meta.env.EMAILJS_TEMPLATE,
+        import.meta.env.VITE_EMAILJS_SERVICE,
+        import.meta.env.VITE_EMAILJS_TEMPLATE,
         e.target,
-        import.meta.env.EMAILJS_USER
+        import.meta.env.VITE_EMAILJS_USER
       )
 
       .then(

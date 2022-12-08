@@ -1,7 +1,0 @@
-export const Environment = {
- /**
-  * 
-  *  token do instagram
-  */
-INSTA_TOKEN:"IGQVJXV1BmdEM2SGRTNXd5YVpPWEtVS3R2MC0xV1dJb0ZArR19jai1zdzJDY1p3RktNMlhfX3ZAwZA0NEdXM1ZAG5mc0JYZA0RZALU5CcTJVd0hwckFFVV90TVdqYUJJQ3I5N2NSTkhOdUVrcDRCYld2ajVlaAZDZD"
-};

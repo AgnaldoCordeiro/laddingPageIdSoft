@@ -1,6 +1,5 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react';
-import { Environment } from '../../environment';
 import styles from "./styles.module.scss";
 
 interface IFeedItem {
@@ -15,7 +14,7 @@ export function InstaFeed() {
   const [feedList, setFeedList] = useState<IFeedItem[]>([])
 
   async function getInstaFeed() {
-    const token = Environment.INSTA_TOKEN
+    const token = import.meta.env.VITE_INSTA_TOKEN
     const fields = "media_url, media_type, permalink, caption"
     const url = `https://graph.instagram.com/me/media?access_token=${token}&fields=${fields}`
 

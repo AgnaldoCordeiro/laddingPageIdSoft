@@ -5,13 +5,15 @@ interface CardProps {
   title: string;
   img: string;
   subTexto: string;
+  width: string;
+  height: string;
 }
 
-export function CardImg({ title, img, subTexto }: CardProps) {
+export function CardImg({ title, img, subTexto,width, height  }: CardProps) {
   return (
     <div className={styles.subContainer}>
       <div className={styles.imagem}>
-        <img src={img} alt={title} width="400px" height="400px" />
+        <img src={img} alt={title} width={width} height={height} id={styles.img}/>
       </div>
       <div className={styles.card}>
         <div className={styles.tituloCard}>

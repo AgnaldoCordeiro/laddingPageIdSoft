@@ -74,3 +74,393 @@
     }
   }
 }
+
+@media(max-width: 600px){
+  .container {  
+   margin: -5rem;
+    width: 305px;
+    height: auto;
+  }
+  
+  .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+  
+    /* Roxo */
+  
+    color: #311629;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .inputField {
+    padding: 0.3rem;
+  
+    textarea,
+    input {
+      background-color: #fff;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      border: 0;
+      width: 100%;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #212529;
+      resize: none;
+  
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      appearance: none;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+  }
+  
+  .buttonSubmit {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+  
+    button {
+      font-size: 1rem;
+      padding: 0.5rem;
+      border: 0;
+      border-radius: 0.5rem;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      background: var(--pink-500);
+  
+      transition: filter 0.3s;
+  
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+  }
+  
+}
+
+
+@media(max-width: 450px){
+  .container {  
+   margin: -5rem;
+    width: 305px;
+    height: auto;
+  }
+  
+  .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+  
+    /* Roxo */
+  
+    color: #311629;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .inputField {
+    padding: 0.3rem;
+  
+    textarea,
+    input {
+      background-color: #fff;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      border: 0;
+      width: 100%;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #212529;
+      resize: none;
+  
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      appearance: none;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+  }
+  
+  .buttonSubmit {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+  
+    button {
+      font-size: 1rem;
+      padding: 0.5rem;
+      border: 0;
+      border-radius: 0.5rem;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      background: var(--pink-500);
+  
+      transition: filter 0.3s;
+  
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+  }
+  
+}
+
+
+
+@media(max-width: 375px){
+  .container {  
+   margin: -5rem;
+    width: 305px;
+    height: auto;
+  }
+  
+  .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+  
+    /* Roxo */
+  
+    color: #311629;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .inputField {
+    padding: 0.3rem;
+  
+    textarea,
+    input {
+      background-color: #fff;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      border: 0;
+      width: 100%;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #212529;
+      resize: none;
+  
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      appearance: none;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+  }
+  
+  .buttonSubmit {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+  
+    button {
+      font-size: 1rem;
+      padding: 0.5rem;
+      border: 0;
+      border-radius: 0.5rem;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      background: var(--pink-500);
+  
+      transition: filter 0.3s;
+  
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+  }
+  
+}
+
+@media(max-width: 320px){
+  .container {  
+    margin: -5rem;
+    width: 305px;
+    height: auto;
+  }
+  
+  .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+  
+    /* Roxo */
+  
+    color: #311629;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .inputField {
+    padding: 0.3rem;
+  
+    textarea,
+    input {
+      background-color: #fff;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      border: 0;
+      width: 100%;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #212529;
+      resize: none;
+  
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      appearance: none;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+  }
+  
+  .buttonSubmit {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+  
+    button {
+      font-size: 1rem;
+      padding: 0.5rem;
+      border: 0;
+      border-radius: 0.5rem;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      background: var(--pink-500);
+  
+      transition: filter 0.3s;
+  
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+  }
+  
+}
+
+
+
+@media(max-width: 280px){
+  .container {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    width: 200px;
+    height: auto;
+  }
+  
+  .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+  
+    /* Roxo */
+  
+    color: #311629;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .inputField {
+    padding: 0.3rem;
+  
+    textarea,
+    input {
+      background-color: #fff;
+      font-size: 1rem;
+      padding: 0;
+      border: 0;
+      width: 100%;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #212529;
+      resize: none;
+  
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      appearance: none;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+  }
+  
+  .buttonSubmit {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+  
+    button {
+      font-size: 1rem;
+      padding: 0.5rem;
+      border: 0;
+      border-radius: 0.5rem;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      background: var(--pink-500);
+  
+      transition: filter 0.3s;
+  
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+  }
+  
+}

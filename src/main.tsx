@@ -12,14 +12,12 @@ import { SaibaMais } from './components/SaibaMais'
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <BrowserRouter>
-      <Header />
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/QuemSomos" element={<QuemSomos />} />
         <Route path="/SaibaMais" element={<SaibaMais />} />
         <Route path="*" element={<App />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 )

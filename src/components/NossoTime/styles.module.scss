@@ -18,6 +18,7 @@
 
 }
 
+
 .subContainer {
 
   display: flex;
@@ -34,6 +35,13 @@
   }
 }
 
+.containerTime{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1240.57px;
+  height: 260.67px;
+}
 
 .titulo {
 
@@ -49,14 +57,226 @@
 }
 
 .timeContainer {
-
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0;
-  gap: 44px;
+  gap: 10px;
 
-  width: 1240.57px;
-  height: 260.67px;
+ 
+}
+@media (max-width: 414px) {
+  .container {
+    height: auto;
+    background: #FFFFFF;
+    transform: rotate(-0.03deg);
+  
+    background: url('../../assets/Group49.svg'),
+      url('../../assets/Group41.svg');
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: top left, bottom right;
+  
+    color: #311629;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+  
+  
+  }
+  
+  .subContainer {
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotate(-0.03deg);
+ 
+    margin: 1rem;
+  
+    h3 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .containerTime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height:auto;
+   
+  }
+  
+  
+  .titulo {
+  
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin: 0;
+  
+    transform: rotate(-0.03deg);
+  }
+  
+  .timeContainer {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    height: auto;
+    background: #FFFFFF;
+    transform: rotate(-0.03deg);
+  
+    background: url('../../assets/Group49.svg'),
+      url('../../assets/Group41.svg');
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: top left, bottom right;
+  
+    color: #311629;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+  
+  
+  }
+  
+  .subContainer {
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotate(-0.03deg);
+ 
+    margin: 1rem;
+  
+    h3 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .containerTime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height:auto;
+   
+  }
+  
+  
+  .titulo {
+  
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin: 0;
+  
+    transform: rotate(-0.03deg);
+  }
+  
+  .timeContainer {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 280px) {
+  .container {
+    height: auto;
+    background: #FFFFFF;
+    transform: rotate(-0.03deg);
+  
+    background: url('../../assets/Group49.svg'),
+      url('../../assets/Group41.svg');
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: top left, bottom right;
+  
+    color: #311629;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+  
+  
+  }
+  
+  .subContainer {
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotate(-0.03deg);
+  
+    margin: 1rem;
+  
+    h3 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .containerTime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height:auto;
+  }
+  
+  
+  .titulo {
+  
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin: auto;
+  
+    transform: rotate(-0.03deg);
+  }
+  
+  .timeContainer {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 12px;
+  }
 }

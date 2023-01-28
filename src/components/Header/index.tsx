@@ -55,11 +55,12 @@ ScrollTop.propTypes = {
 export default function Header(props: any) {
   return (
     <React.Fragment>
-      <CssBaseline />
-      <AppBar color={'inherit'}>
-        <Toolbar>
+     <CssBaseline />
+   
+     <AppBar color={'inherit'} >  
           <header className={styles.nav}>
-            <nav>
+         <Toolbar sx={{background: '#ffffff'}}> 
+            <nav >
               <input type="checkbox" id="check" className={styles.check} />
               <label htmlFor="check" className={styles.checkbtn}>
                 <i><svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -95,9 +96,9 @@ export default function Header(props: any) {
                 </li>
               </ul>
             </nav>
+         </Toolbar> 
           </header>
-        </Toolbar>
-      </AppBar>
+        </AppBar> 
       <Toolbar id="back-to-top-anchor" />
 
       {/*  <ScrollTop {...props}>

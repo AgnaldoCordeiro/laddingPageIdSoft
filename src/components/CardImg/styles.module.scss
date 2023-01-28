@@ -116,3 +116,1114 @@
     }
   }
 }
+
+
+@media(max-width: 1350px){
+  .subContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0rem;
+    margin: 0;
+  
+    gap: auto;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1.5rem 0.5rem 1.5px 3.125rem;
+    gap: 1.5625rem;
+    margin: -2.5rem;
+  
+    width: 25.1875rem;
+    height: 13.014375rem;
+  
+    background: #FFFFFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  
+  
+  }
+  
+  .imagem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 12.5rem;
+    height: 12.5rem;
+    padding: 3rem;
+  }
+  
+  .tituloCard {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1.25rem;
+  
+    width: 17.25rem;
+    height: 8.8125rem;
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.125rem;
+      line-height: 1.4375rem;
+      /* identical to box height */
+  
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.125rem;
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+    }
+  
+  
+    a {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.125rem;
+      cursor: pointer;
+      position: relative;
+  
+      /* identical to box height */
+  
+      display: flex;
+      align-items: center;
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      i {
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+@media(max-width: 1024px){
+  .subContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0rem;
+    margin: 0;
+  
+    gap: auto;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1.5rem 0.5rem 1.5px 3.125rem;
+    gap: 1.5625rem;
+    margin: -2.5rem;
+  
+    width: 38.1875rem;
+    height: 13.014375rem;
+  
+    background: #FFFFFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  
+  
+  }
+  
+  .imagem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 12.5rem;
+    height: 12.5rem;
+    padding: 3rem;
+  }
+  
+  .tituloCard {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1.25rem;
+  
+    width: 27.25rem;
+    height: 8.8125rem;
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.125rem;
+      line-height: 1.4375rem;
+      /* identical to box height */
+  
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.125rem;
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+    }
+  
+  
+    a {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.125rem;
+      cursor: pointer;
+      position: relative;
+  
+      /* identical to box height */
+  
+      display: flex;
+      align-items: center;
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      i {
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+
+@media(max-width: 950px){
+  .subContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  
+    gap: auto;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1.5rem 0.5rem 1.5px 3.125rem;
+    gap: auto;
+    padding: auto;
+    width: 35.1875rem;
+    height: 13.014375rem;
+  
+    background: #FFFFFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  
+  
+  }
+  
+  .imagem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-left: -5rem;
+  }
+  
+  .tituloCard {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: auto;
+    padding-left: 5rem;
+    width: auto;
+    height: auto;
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.125rem;
+      line-height: 1.4375rem;
+      /* identical to box height */
+  
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.125rem; 
+  
+
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+    }
+  
+  
+    a {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.125rem;
+      cursor: pointer;
+      position: relative;
+  
+      /* identical to box height */
+  
+      display: flex;
+      align-items: center;
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      i {
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+
+@media(max-width: 820px){
+  .subContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  
+    gap: auto;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1.5rem 0.5rem 1.5px 3.125rem;
+    gap: auto;
+    padding: auto;
+    width: 35.1875rem;
+    height: 13.014375rem;
+  
+    background: #FFFFFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  
+  
+  }
+  
+  .imagem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-left: -5rem;
+  }
+  
+  .tituloCard {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: auto;
+    padding-left: 5rem;
+    width: auto;
+    height: auto;
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.125rem;
+      line-height: 1.4375rem;
+      /* identical to box height */
+  
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.125rem; 
+  
+
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+    }
+  
+  
+    a {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.125rem;
+      cursor: pointer;
+      position: relative;
+  
+      /* identical to box height */
+  
+      display: flex;
+      align-items: center;
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      i {
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+
+
+@media(max-width: 770px){
+  .subContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  
+    gap: auto;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1.5rem 0.5rem 1.5px 3.125rem;
+    gap: auto;
+    padding: -2rem;
+    width: 25.1875rem;
+    height: 13.014375rem;
+  
+    background: #FFFFFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  
+  
+  }
+  
+  .imagem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-left: -5rem;
+  }
+  
+  .tituloCard {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: auto;
+    padding-left: 5rem;
+    width: auto;
+    height: auto;
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.125rem;
+      line-height: 1.4375rem;
+      /* identical to box height */
+  
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.125rem; 
+  
+
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+    }
+  
+  
+    a {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.125rem;
+      cursor: pointer;
+      position: relative;
+  
+      /* identical to box height */
+  
+      display: flex;
+      align-items: center;
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      i {
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+@media(max-width: 540px){
+
+  #img {
+    width: 150px;
+    height: 150px;
+  }
+  .subContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  
+    gap: auto;
+  }
+  
+  .card {
+   
+    padding: 0;
+    gap: 0;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+  
+    background: #FFFFFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  
+  
+  }
+  
+  .imagem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .tituloCard {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;  
+    gap: auto;
+    width: auto;
+    height: auto;
+    margin: 0;
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 14px;
+      /* identical to box height */
+  
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px; 
+  
+
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+    }
+  
+  
+    a {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      cursor: pointer;
+      position: relative;
+  
+      /* identical to box height */
+  
+      display: flex;
+      align-items: center;
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      i {
+        margin-left: 0rem;
+      }
+    }
+  }
+}
+
+@media(max-width: 414px){
+
+  #img {
+    width: 150px;
+    height: 150px;
+  }
+  .subContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  
+    gap: auto;
+  }
+  
+  .card {
+   
+    padding: 0;
+    gap: 0;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+  
+    background: #FFFFFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  
+  
+  }
+  
+  .imagem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .tituloCard {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;  
+    gap: auto;
+    width: auto;
+    height: auto;
+    margin: 0;
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 8px;
+      line-height: 12px;
+      /* identical to box height */
+  
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 10px; 
+  
+
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+    }
+  
+  
+    a {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 10px;
+      cursor: pointer;
+      position: relative;
+  
+      /* identical to box height */
+  
+      display: flex;
+      align-items: center;
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      i {
+        margin-left: 0rem;
+      }
+    }
+  }
+}
+
+@media(max-width: 375px){
+
+  #img {
+    width: 100px;
+    height: 100px;
+  }
+  .subContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  
+    gap: auto;
+  }
+  
+  .card {
+   
+    padding: 0;
+    gap: 0;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+  
+    background: #FFFFFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  
+  
+  }
+  
+  .imagem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .tituloCard {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;  
+    gap: auto;
+    width: auto;
+    height: auto;
+    margin: 0;
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 8px;
+      line-height: 12px;
+      /* identical to box height */
+  
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 10px; 
+  
+
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+    }
+  
+  
+    a {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 10px;
+      cursor: pointer;
+      position: relative;
+  
+      /* identical to box height */
+  
+      display: flex;
+      align-items: center;
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      i {
+        margin-left: 0rem;
+      }
+    }
+  }
+}
+
+
+
+@media(max-width: 280px){
+
+  #img {
+    width: 80px;
+    height: 80px;
+  }
+  .subContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  
+    gap: auto;
+  }
+  
+  .card {
+   
+    padding: 0;
+    gap: 0;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+  
+    background: #FFFFFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  
+  
+  }
+  
+  .imagem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .tituloCard {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;  
+    gap: auto;
+    width: auto;
+    height: auto;
+    margin: 0;
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 8px;
+      line-height: 12px;
+      /* identical to box height */
+  
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 10px; 
+  
+
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+    }
+  
+  
+    a {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 10px;
+      cursor: pointer;
+      position: relative;
+  
+      /* identical to box height */
+  
+      display: flex;
+      align-items: center;
+  
+      /* Rosa escuro */
+  
+      color: #980138;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      i {
+        margin-left: 0rem;
+      }
+    }
+  }
+}

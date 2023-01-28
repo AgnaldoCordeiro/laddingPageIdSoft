@@ -1,7 +1,6 @@
 .container {
   height: 100vh;
   background: #311629;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +14,7 @@
 }
 
 .titulo {
+ 
   display: flex;
   color: #ffffff;
   flex-direction: column;
@@ -63,6 +63,9 @@
     flex-grow: 0;
 
     p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       font-family: 'Plus Jakarta Sans';
       font-style: normal;
       font-weight: 400;
@@ -91,9 +94,10 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 7rem;
+  margin: 2rem;
   padding: 32px;
-  gap: 24px;
+  gap: 0px;
+  border: 1px solid red;
 
   background: #FFFFFF;
   /* Sombra idsoft */
@@ -111,7 +115,7 @@
 }
 
 .texto {
-  width: 528px;
+  width: auto;
   font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 400;
@@ -192,4 +196,1430 @@
   order: 1;
   flex-grow: 0;
 
+}
+@media(max-width: 850px){
+  .container {
+    height: auto;
+    background: #311629;
+    flex-direction: column;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subContainer {
+    width: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titulo {
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 50px
+    }
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 15px;
+    }
+  
+    button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding:0px;
+      gap: 0px;
+  
+      width: 125px;
+      height: 25px;
+  
+      /* Rosa escuro */
+  
+      background: #980138;
+      /* Sombra */
+  
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+      border-radius: 16px;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+  
+      p {
+        display: flex;
+
+      align-items: center;
+      justify-content: center;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 0;
+        /* identical to box height */
+  
+  
+        /* Branco */
+  
+        color: #FFFFFF;
+  
+  
+        /* Inside auto layout */
+  
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+  
+    }
+  
+  }
+  
+  .cardContainer {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem;   
+    gap: 24px;  
+  
+    background: #FFFFFF;
+    /* Sombra idsoft */
+  
+    box-shadow: 0px 4.78146px 4.78146px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  
+  
+    .aspas {
+      position: absolute;
+      margin-top: -4rem;
+      color: #980138;
+      width: 30px;
+    }
+  
+  }
+  
+  .texto {
+    width: auto;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+  
+    /* Roxo */
+  
+    color: #311629;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .containerAutor {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 10px;
+  
+  
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  
+  
+    p {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 19px;
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+  
+    width: 56px;
+    height: 24px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+  }
+}
+
+@media(max-width: 1000px){
+  .container {
+    height: auto;
+    background: #311629;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .subContainer {
+    width: auto;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .titulo {
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px
+    }
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 35px;
+    }
+  
+    button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 8px 24px;
+      gap: 10px;
+  
+      width: 165px;
+      height: 34px;
+  
+      /* Rosa escuro */
+  
+      background: #980138;
+      /* Sombra */
+  
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+      border-radius: 16px;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+  
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height */
+  
+  
+        /* Branco */
+  
+        color: #FFFFFF;
+  
+  
+        /* Inside auto layout */
+  
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+  
+    }
+  
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 7rem;
+    padding: 32px;
+    gap: 24px;
+  
+    background: #FFFFFF;
+    /* Sombra idsoft */
+  
+    box-shadow: 0px 4.78146px 4.78146px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  
+  
+    .aspas {
+      position: absolute;
+      margin-top: -4rem;
+      color: #980138;
+    }
+  
+  }
+  
+  .texto {
+    width: 528px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  
+    /* Roxo */
+  
+    color: #311629;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .containerAutor {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 10px;
+  
+  
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  
+  
+    p {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+  
+    width: 56px;
+    height: 24px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+  }
+  @media(max-width: 850px){
+    .container {
+      height: auto;
+      background: #311629;
+      flex-direction: column;
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .subContainer {
+      width: auto;
+      margin: 2rem;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .titulo {
+      display: flex;
+      color: #ffffff;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 10px;
+    
+      p {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 50px
+      }
+    
+      h6 {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 15px;
+      }
+    
+      button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding:0px;
+        gap: 0px;
+    
+        width: 125px;
+        height: 25px;
+    
+        /* Rosa escuro */
+    
+        background: #980138;
+        /* Sombra */
+    
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 16px;
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    
+        p {
+          display: flex;
+  
+        align-items: center;
+        justify-content: center;
+          font-family: 'Plus Jakarta Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 0;
+          /* identical to box height */
+    
+    
+          /* Branco */
+    
+          color: #FFFFFF;
+    
+    
+          /* Inside auto layout */
+    
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+        }
+    
+      }
+    
+    }
+    
+    .cardContainer {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 2rem;   
+      gap: 24px;  
+    
+      background: #FFFFFF;
+      /* Sombra idsoft */
+    
+      box-shadow: 0px 4.78146px 4.78146px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+    
+    
+      .aspas {
+        position: absolute;
+        margin-top: -4rem;
+        color: #980138;
+        width: 30px;
+      }
+    
+    }
+    
+    .texto {
+      width: auto;
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+  
+    
+      /* Roxo */
+    
+      color: #311629;
+    
+    
+      /* Inside auto layout */
+    
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    
+    .containerAutor {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding: 0px;
+      gap: 10px;
+    
+    
+    
+    
+      /* Inside auto layout */
+    
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+    
+    
+      p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+    
+        /* Roxo */
+    
+        color: #311629;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    
+    
+        span {
+          font-weight: 400;
+        }
+      }
+    }
+    
+    .icons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 8px;
+    
+      width: 56px;
+      height: 24px;
+    
+    
+      /* Inside auto layout */
+    
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    
+    }
+  }
+}
+
+@media(max-width: 750px){
+  .container {
+    height: auto;
+    background: #311629;
+    flex-direction: column;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subContainer {
+    width: auto;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titulo {
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 50px
+    }
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 15px;
+    }
+  
+    button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding:0px;
+      gap: 0px;
+  
+      width: 125px;
+      height: 25px;
+  
+      /* Rosa escuro */
+  
+      background: #980138;
+      /* Sombra */
+  
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+      border-radius: 16px;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+  
+      p {
+        display: flex;
+
+      align-items: center;
+      justify-content: center;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 0;
+        /* identical to box height */
+  
+  
+        /* Branco */
+  
+        color: #FFFFFF;
+  
+  
+        /* Inside auto layout */
+  
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+  
+    }
+  
+  }
+  
+  .cardContainer {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem;   
+    gap: 24px;  
+  
+    background: #FFFFFF;
+    /* Sombra idsoft */
+  
+    box-shadow: 0px 4.78146px 4.78146px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  
+  
+    .aspas {
+      position: absolute;
+      margin-top: -4rem;
+      color: #980138;
+      width: 30px;
+    }
+  
+  }
+  
+  .texto {
+    width: auto;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+  
+    /* Roxo */
+  
+    color: #311629;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .containerAutor {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 10px;
+  
+  
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  
+  
+    p {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 19px;
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+  
+    width: 56px;
+    height: 24px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+  }
+}
+
+
+
+@media(max-width: 450px){
+  .container {
+    height: auto;
+    background: #311629;
+    flex-direction: column;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subContainer {
+    width: auto;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titulo {
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 18px
+    }
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 15px;
+    }
+  
+    button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding:0px;
+      gap: 0px;
+  
+      width: 125px;
+      height: 25px;
+  
+      /* Rosa escuro */
+  
+      background: #980138;
+      /* Sombra */
+  
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+      border-radius: 16px;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+  
+      p {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 0;
+        /* identical to box height */
+  
+  
+        /* Branco */
+  
+        color: #FFFFFF;
+  
+  
+        /* Inside auto layout */
+  
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+  
+    }
+  
+  }
+  
+  .cardContainer {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem;   
+    gap: 24px;  
+  
+    background: #FFFFFF;
+    /* Sombra idsoft */
+  
+    box-shadow: 0px 4.78146px 4.78146px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  
+  
+    .aspas {
+      position: absolute;
+      margin-top: -4rem;
+      color: #980138;
+      width: 30px;
+    }
+  
+  }
+  
+  .texto {
+    width: auto;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+  
+    /* Roxo */
+  
+    color: #311629;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .containerAutor {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 10px;
+  
+  
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  
+  
+    p {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 19px;
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+  
+    width: 56px;
+    height: 24px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+  }
+}
+
+@media(max-width: 375px){
+  .container {
+    height: auto;
+    background: #311629;
+    flex-direction: column;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subContainer {
+    width: auto;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titulo {
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 18px
+    }
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 15px;
+    }
+  
+    button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding:0px;
+      gap: 0px;
+  
+      width: 125px;
+      height: 25px;
+  
+      /* Rosa escuro */
+  
+      background: #980138;
+      /* Sombra */
+  
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+      border-radius: 16px;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+  
+      p {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 0;
+        /* identical to box height */
+  
+  
+        /* Branco */
+  
+        color: #FFFFFF;
+  
+  
+        /* Inside auto layout */
+  
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+  
+    }
+  
+  }
+  
+  .cardContainer {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem;   
+    gap: 24px;  
+  
+    background: #FFFFFF;
+    /* Sombra idsoft */
+  
+    box-shadow: 0px 4.78146px 4.78146px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  
+  
+    .aspas {
+      position: absolute;
+      margin-top: -4rem;
+      color: #980138;
+      width: 30px;
+    }
+  
+  }
+  
+  .texto {
+    width: auto;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+  
+    /* Roxo */
+  
+    color: #311629;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .containerAutor {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 10px;
+  
+  
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  
+  
+    p {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 19px;
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+  
+    width: 56px;
+    height: 24px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+  }
+}
+
+@media(max-width: 280px){
+  .container {
+    height: auto;
+    background: #311629;
+    flex-direction: column;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subContainer {
+    width: auto;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titulo {
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+  
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 18px
+    }
+  
+    h6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 15px;
+    }
+  
+    button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding:0px;
+      gap: 0px;
+  
+      width: 125px;
+      height: 25px;
+  
+      /* Rosa escuro */
+  
+      background: #980138;
+      /* Sombra */
+  
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+      border-radius: 16px;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+  
+      p {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 0;
+        /* identical to box height */
+  
+  
+        /* Branco */
+  
+        color: #FFFFFF;
+  
+  
+        /* Inside auto layout */
+  
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+  
+    }
+  
+  }
+  
+  .cardContainer {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem;
+    padding: 15px;
+    gap: 24px;  
+  
+    background: #FFFFFF;
+    /* Sombra idsoft */
+  
+    box-shadow: 0px 4.78146px 4.78146px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  
+  
+    .aspas {
+      position: absolute;
+      margin-top: -3rem;
+      color: #980138;
+      width: 30px;
+    }
+  
+  }
+  
+  .texto {
+    width: auto;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+  
+    /* Roxo */
+  
+    color: #311629;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .containerAutor {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 10px;
+  
+  
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  
+  
+    p {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 10px;
+      line-height: 12px;
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+  
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+  
+    width: 26px;
+    height: 12px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+  }
 }

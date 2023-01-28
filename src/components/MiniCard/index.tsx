@@ -9,7 +9,7 @@ export function MiniCard({ title, img }: CardProps) {
   return (
     <div className={styles.card}>
       <img alt={img} src={img} />
-      <p>{title}</p>
+      <p className={styles.title}>{title}</p>
     </div>
   )
 }

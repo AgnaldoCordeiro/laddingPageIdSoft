@@ -18,3 +18,139 @@
   margin: 5rem;
   padding: 5rem;
 }
+
+
+@media(max-width: 950px){
+  .container {
+    height: auto;
+    border: 1px solid transparent;
+    display: block;
+    background: #FFFFFF;
+    background-image: url('../../assets/Group30.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom left;
+
+  }
+  
+  .subContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+}
+
+
+
+@media(max-width: 600px){
+  .container {
+    height: auto;
+    border: 1px solid transparent;
+    display: block;
+    background: #FFFFFF;
+    background-image: url('../../assets/Group30.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom left;
+
+  }
+  
+  .subContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+}
+
+
+@media(max-width: 450px){
+  .container {
+    height: auto;
+    border: 1px solid transparent;
+    display: block;
+    background: #FFFFFF;
+    background-image: url('../../assets/Group30.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom left;
+
+  }
+  
+  .subContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+}
+
+
+
+@media(max-width: 375px){
+  .container {
+    height: auto;
+    border: 1px solid transparent;
+    display: block;
+    background: #FFFFFF;
+    background-image: url('../../assets/Group30.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom left;
+
+  }
+  
+  .subContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+}
+
+@media(max-width: 320px){
+  .container {
+    height: auto;
+    border: 1px solid transparent;
+    display: block;
+    background: #FFFFFF;
+    background-image: url('../../assets/Group30.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom left;
+
+  }
+  
+  .subContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+}
+
+
+@media(max-width: 280px){
+  .container {
+    height: auto;
+    border: 1px solid transparent;
+    display: block;
+    background: #FFFFFF;
+    background-image: url('../../assets/Group30.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom left;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+  }
+  
+  .subContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+}

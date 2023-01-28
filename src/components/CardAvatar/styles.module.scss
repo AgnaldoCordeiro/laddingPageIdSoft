@@ -1,14 +1,16 @@
-.card {
+.card { 
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
   gap: 12px;
 
-  width: 184.98px;
-  height: 260.67px;
+  width: auto;
+  height: auto;
 
   transform: rotate(-0.03deg);
+
+
 
   /* Inside auto layout */
 
@@ -16,22 +18,27 @@
   order: 0;
   flex-grow: 0;
 
+}
+.containerImg{
+  display: block;
+  background-image: url('../../assets/vetor.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+
+  padding: 1rem;
+
   img {
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-    background: #D9D9D9;
-    border-radius: 100px 80px 60px 100px;
-    padding-right: 1px;
-
+    left: -29.3px;
+    top: -7.81px;
+  
+    border-radius: 160% 100% 100% 100%;
     transform: matrix(0.47, -0.89, -0.87, -0.48, 0, 0);
-    transform: rotate(-2.03deg);
-
-
-
+    transform: rotate(1.03deg);
 
   }
-
 }
 
 .titulo {
@@ -76,4 +83,304 @@
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+
+@media (max-width: 414px){
+  .card { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  
+    width: auto;
+    height: auto;
+  
+    transform: rotate(-0.03deg);
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+  }
+  .containerImg{
+    display: block;
+    background-image: url('../../assets/vetor.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    padding: 0.5rem;
+  
+    img {
+      box-sizing: border-box;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      left: -29.3px;
+      top: -7.81px;
+    
+      border-radius: 160% 100% 100% 100%;
+      transform: matrix(0.47, -0.89, -0.87, -0.48, 0, 0);
+      transform: rotate(1.03deg);
+
+      width: 50px;
+      height: auto;
+  
+    }
+  }
+
+  .containerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titulo {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    /* Rosa escuro */
+  
+    color: #980138;
+  
+    transform: rotate(-0.03deg);
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .subTitulo {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    max-width: 10ch;
+    overflow: hidden;
+    word-break: break-word;
+  
+    /* Roxo */
+  
+    color: #311629;
+  
+    transform: rotate(-0.03deg);
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+}
+
+@media (max-width: 375px){
+  .card { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  
+    width: auto;
+    height: auto;
+  
+    transform: rotate(-0.03deg);
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+  }
+  .containerImg{
+    display: block;
+    background-image: url('../../assets/vetor.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    padding: 0.5rem;
+  
+    img {
+      box-sizing: border-box;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      left: -29.3px;
+      top: -7.81px;
+    
+      border-radius: 160% 100% 100% 100%;
+      transform: matrix(0.47, -0.89, -0.87, -0.48, 0, 0);
+      transform: rotate(1.03deg);
+
+      width: 50px;
+      height: auto;
+  
+    }
+  }
+
+  .containerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titulo {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    /* Rosa escuro */
+  
+    color: #980138;
+  
+    transform: rotate(-0.03deg);
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .subTitulo {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    max-width: 10ch;
+    overflow: hidden;
+    word-break: break-word;
+  
+    /* Roxo */
+  
+    color: #311629;
+  
+    transform: rotate(-0.03deg);
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+}
+
+@media (max-width: 280px){
+  .card { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  
+    width: auto;
+    height: auto;
+  
+    transform: rotate(-0.03deg);
+  
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+  }
+  .containerImg{
+    display: block;
+    background-image: url('../../assets/vetor.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    padding: 1rem;
+  
+    img {
+      box-sizing: border-box;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      left: -29.3px;
+      top: -7.81px;
+    
+      border-radius: 160% 100% 100% 100%;
+      transform: matrix(0.47, -0.89, -0.87, -0.48, 0, 0);
+      transform: rotate(1.03deg);
+
+      width: 50px;
+      height: auto;
+  
+    }
+  }
+
+  .containerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titulo {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    /* Rosa escuro */
+  
+    color: #980138;
+  
+    transform: rotate(-0.03deg);
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .subTitulo {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    max-width: 10ch;
+    overflow: hidden;
+    word-break: break-word;
+  
+    /* Roxo */
+  
+    color: #311629;
+  
+    transform: rotate(-0.03deg);
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
 }

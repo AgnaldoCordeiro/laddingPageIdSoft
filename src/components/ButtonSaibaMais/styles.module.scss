@@ -51,3 +51,342 @@
     flex-grow: 0;
   }
 }
+
+@media  (max-width: 912px) {
+  .buttonSaibaMais {
+    cursor: pointer;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    gap: auto;
+  
+    width: auto;
+    height: auto;
+  
+    /* Branco */
+  
+    background: #FFFFFF;
+    /* Sombra */
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    border: none;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+    p {
+      width: auto;
+      height: auto;
+  
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.175rem;
+      line-height: 1.225rem;
+      /* identical to box height */
+  
+      text-align: center;
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+}
+
+
+@media  (max-width: 820px) {
+  .buttonSaibaMais {
+    cursor: pointer;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    gap: auto;
+  
+    width: auto;
+    height: auto;
+  
+    /* Branco */
+  
+    background: #FFFFFF;
+    /* Sombra */
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    border: none;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+    p {
+      width: auto;
+      height: auto;
+  
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.975rem;
+      line-height: 0.925rem;
+      /* identical to box height */
+  
+      text-align: center;
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+}
+
+
+@media  (max-width: 540px) {
+  .buttonSaibaMais {
+    cursor: pointer;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    gap: auto;
+  
+    width: auto;
+    height: auto;
+  
+    /* Branco */
+  
+    background: #FFFFFF;
+    /* Sombra */
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    border: none;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+    p {
+      width: auto;
+      height: auto;
+  
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.575rem;
+      line-height: 0.225rem;
+      /* identical to box height */
+  
+      text-align: center;
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+}
+
+
+@media  (max-width: 414px) {
+  .buttonSaibaMais {
+    cursor: pointer;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    gap: auto;
+  
+    width: auto;
+    height: auto;
+  
+    /* Branco */
+  
+    background: #FFFFFF;
+    /* Sombra */
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    border: none;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+    p {
+      width: auto;
+      height: auto;
+  
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.575rem;
+      line-height: 0.225rem;
+      /* identical to box height */
+  
+      text-align: center;
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+}
+
+@media  (max-width: 375px) {
+  .buttonSaibaMais {
+    cursor: pointer;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    gap: auto;
+  
+    width: auto;
+    height: auto;
+  
+    /* Branco */
+  
+    background: #FFFFFF;
+    /* Sombra */
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    border: none;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+    p {
+      width: auto;
+      height: auto;
+  
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.575rem;
+      line-height: 0.225rem;
+      /* identical to box height */
+  
+      text-align: center;
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+}
+
+@media  (max-width: 280px) {
+  .buttonSaibaMais {
+    cursor: pointer;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    gap: auto;
+  
+    width: auto;
+    height: auto;
+  
+    /* Branco */
+  
+    background: #FFFFFF;
+    /* Sombra */
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    border: none;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+    p {
+      width: auto;
+      height: auto;
+  
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.575rem;
+      line-height: 0.225rem;
+      /* identical to box height */
+  
+      text-align: center;
+  
+      /* Roxo */
+  
+      color: #311629;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+}

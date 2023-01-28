@@ -13,7 +13,7 @@ export function Clientes() {
   return (
     <section className={styles.container} id="clientes">
       <div className={styles.titulo}>
-        <h6>Nossos clientes</h6>
+        <h6>Nossos colaboradores</h6>
       </div>
       <div >
         <div className={styles.cardContainer}>

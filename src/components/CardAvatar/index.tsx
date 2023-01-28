@@ -9,9 +9,13 @@ interface CardProps {
 export function CardAvatar({ title, img, subTitle }: CardProps) {
   return (
     <div className={styles.card}>
-      <img alt={img} src={img} width='181.67px' height='184.98px' />
+      <div className={styles.containerImg}>
+      <img alt={img} src={img} />
+      </div>
+      <div className={styles.containerText}>
       <p className={styles.titulo}>{title}</p>
       <p className={styles.subTitulo}>{subTitle}</p>
+      </div>
     </div>
   )
 }

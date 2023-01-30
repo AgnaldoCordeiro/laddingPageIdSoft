@@ -17,7 +17,7 @@ function App() {
       <Home />
       <Beneficios />
       <Solucoes />
-      <Depoimentos />
+      {/* <Depoimentos /> */}
       <Contato />
       <Footer /> 
 

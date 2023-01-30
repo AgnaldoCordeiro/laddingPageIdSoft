@@ -1,61 +1,41 @@
 .nav {
-  background: #ffffff;
-
-  margin: 0;
-  padding: 0;
-  margin-bottom: -4rem;
+  background: #fff;
   nav {
-    background: #ffffff;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    height: auto;
+    background: #fff;
+    height: 80px;
     width: 100%;
 
-  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-
   label {
-    color: var(--pink-500);
+    color:  #980138;
     font-size: 1.5rem;
-    line-height: 5rem;
-    padding: 0 4rem;
     font-weight: 900;
     cursor: pointer;
+    margin: 2.5rem;
   }
 
   nav ul {
     float: right;
-    gap: 56px;
-    padding: 0px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    max-width: 1395px;
+   
   }
-
   nav ul li {
     display: inline-block;
-    line-height: 80px;
-    margin: 0 25px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    cursor: pointer;
   }
-
   nav ul li a {
-    color: var(--pink-500);
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-
-    // text-transform: uppercase;
+    color: #980138;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
   }
-
-  nav ul li button {
+  nav ul li button{
+    border: none;
+  }
+  nav ul li button a{
     color: #FFFFFF;
     justify-content: center;
     align-items: center;
@@ -85,17 +65,15 @@
     transition: 0.5s;
     border-radius: 2rem;
   }
-
   a.activate,
   a:hover {
-    color: #dfb3c2;
+ 
     transition: 0.5s;
     border-radius: 2rem;
   }
-
   .checkbtn {
-    font-size: 40px;
-    color: var(--pink-500);
+    font-size: 30px;
+    color: #980138;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -103,12 +81,11 @@
     display: none;
   }
 }
-
 .check {
   display: none;
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1080px) {
   .nav {
     nav ul {
       position: fixed;
@@ -120,371 +97,75 @@
       text-align: center;
       transition: all 0.5s;
     }
-
     nav ul li {
       display: block;
       margin: 50px 0;
-      line-height: 30px;
-    
+      line-height: 10px;
     }
-
     nav ul li a {
       font-size: 20px;
     }
-
-    a.activate,
-    a:hover {
-      background: none;
-      color: var(--gray-300);
-      
-    }
-
-    .checkbtn {
-      display: block;
-     
-    }
-  }
-
-  .check:checked~ul {
-    left: 0;
-  }
-}
-
-
-@media (max-width: 1280px) {
-  .nav {  
-    nav ul li {
-      display: block;
-      margin: 50px 0;
-      line-height: 50px;
- 
-    }
-
-    nav ul li a {
-      font-size: 30px;
-    }
-
     a.activate,
     a:hover {
       background: none;
       color: var(--gray-300);
     }
-
     .checkbtn {
       display: block;
     }
   }
-
-  .check:checked~ul {
-    left: 0;
-  }
-}
-
-@media (max-width: 1024px) {
-  .nav {   
-
-  
-    nav ul li {
-      display: block;
-      margin: 50px 0;
-      line-height: 50px;
-    }
-
-    nav ul li a {
-      font-size: 30px;
-    }
-
-    a.activate,
-    a:hover {
-      background: none;
-      color: var(--gray-300);
-    }
-
-    .checkbtn {
-      display: block;
-    }
-  }
-
-  .check:checked~ul {
+  .check:checked ~ ul {
     left: 0;
   }
 }
 
 @media (max-width: 912px) {
-  .nav {   
-
-  
-    nav ul li {
-      display: block;
-      margin: 50px 0;
-      line-height: 50px;
+  .nav {
+    label {
+      font-size: 1.5rem;
     }
-
     nav ul li a {
-      font-size: 30px;
+      font-size: 2rem;
+      line-height: 2.5rem;
     }
-
-    a.activate,
-    a:hover {
-      background: none;
-      color: var(--gray-300);
-    }
-
-    .checkbtn {
-      display: block;
-    }
-  }
-
-  .check:checked~ul {
-    left: 0;
-  }
+  } 
 }
-
 
 @media (max-width: 820px) {
-  .nav {   
-
-  
-    nav ul li {
-      display: block;
-      margin: 50px 0;
-      line-height: 50px;
+  .nav {
+    label {
+      font-size: 2.5rem;
     }
-
     nav ul li a {
-      font-size: 30px;
+      font-size: 1.6rem;
+      line-height: 2.5rem;
     }
+  } 
 
-    a.activate,
-    a:hover {
-      background: none;
-      color: var(--gray-300);
-    }
-
-    .checkbtn {
-      display: block;
-    }
-  }
-
-  .check:checked~ul {
-    left: 0;
-  }
 }
 
-
-@media (max-width: 768px) {
-  .nav {   
-
-  
-    nav ul li {
-      display: block;
-      margin: 50px 0;
-      line-height: 50px;
+@media (max-width: 380px) {
+  .nav {
+    label {
+      font-size: 1rem;
+      line-height: 5.5rem;
+      padding: 0 1rem;
     }
-
     nav ul li a {
-      font-size: 30px;
+      font-size: 16px;
     }
-
-    a.activate,
-    a:hover {
-      background: none;
-      color: var(--gray-300);
-    }
-
-    .checkbtn {
-      display: block;
-    }
-  }
-
-  .check:checked~ul {
-    left: 0;
   }
 }
-
-
-@media (max-width: 540px) {
-  .nav {   
-
-  
-    nav ul li {
-      display: block;
-      margin: 50px 0;
-      line-height: 50px;
-    }
-
-    nav ul li a {
-      font-size: 30px;
-    }
-
-    a.activate,
-    a:hover {
-      background: none;
-      color: var(--gray-300);
-    }
-
-    .checkbtn {
-      display: block;
-    }
-  }
-
-  .check:checked~ul {
-    left: 0;
-  }
-}
-
-
-@media (max-width: 414px) {
-  .nav {   
-
-  
-    nav ul li {
-      display: block;
-      margin: 50px 0;
-      line-height: 50px;
-    }
-
-    nav ul li a {
-      font-size: 30px;
-    }
-
-    a.activate,
-    a:hover {
-      background: none;
-      color: var(--gray-300);
-    }
-
-    .checkbtn {
-      display: block;
-    }
-  }
-
-  .check:checked~ul {
-    left: 0;
-  }
-}
-
-
-@media (max-width: 393px) {
-  .nav {   
-
-  
-    nav ul li {
-      display: block;
-      margin: 50px 0;
-      line-height: 50px;
-    }
-
-    nav ul li a {
-      font-size: 30px;
-    }
-
-    a.activate,
-    a:hover {
-      background: none;
-      color: var(--gray-300);
-    }
-
-    .checkbtn {
-      display: block;
-    }
-  }
-
-  .check:checked~ul {
-    left: 0;
-  }
-}
-
-
-@media (max-width: 375px) {
-  .nav {   
-
-  
-    nav ul li {
-      display: block;
-      margin: 50px 0;
-      line-height: 50px;
-    }
-
-    nav ul li a {
-      font-size: 30px;
-    }
-
-    a.activate,
-    a:hover {
-      background: none;
-      color: var(--gray-300);
-    }
-
-    .checkbtn {
-      display: block;
-    }
-  }
-
-  .check:checked~ul {
-    left: 0;
-  }
-}
-
-
-
-@media (max-width: 360px) {
-  .nav {   
-
-  
-    nav ul li {
-      display: block;
-      margin: 50px 0;
-      line-height: 50px;
-    }
-
-    nav ul li a {
-      font-size: 30px;
-    }
-
-    a.activate,
-    a:hover {
-      background: none;
-      color: var(--gray-300);
-    }
-
-    .checkbtn {
-      display: block;
-    }
-  }
-
-  .check:checked~ul {
-    left: 0;
-  }
-}
-
 
 @media (max-width: 280px) {
-  .nav {   
-
-  
-    nav ul li {
-      display: block;
-      margin: 50px 0;
-      line-height: 50px;
+  .nav {
+    label {
+      font-size: 1.2rem;
+      line-height: 5.5rem;
+      padding: 0 1rem;
     }
-
     nav ul li a {
-      font-size: 30px;
+      font-size: 16px;
     }
-
-    a.activate,
-    a:hover {
-      background: none;
-      color: var(--gray-300);
-    }
-
-    .checkbtn {
-      display: block;
-    }
-  }
-
-  .check:checked~ul {
-    left: 0;
   }
 }

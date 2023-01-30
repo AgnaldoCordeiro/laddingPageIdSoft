@@ -32,7 +32,7 @@ useEffect(() => {
 
         <div className={styles.containerTitulo}>
           <h3 className={styles.titulo}>Contribuições da <br /> inteligência artificial <br /> para a sua empresa</h3>
-          <ButtonSaibaMais />
+        {/*   <ButtonSaibaMais /> */}
         </div>
       
           {style === false ? 

@@ -11,6 +11,7 @@ import Zoom from "@mui/material/Zoom";
 import styles from "./styles.module.scss";
 import { Typography } from "@mui/material";
 import { Link } from 'react-router-dom'
+import { useState } from "react";
 
 /* 
 function ScrollTop(props: any) {
@@ -53,6 +54,7 @@ ScrollTop.propTypes = {
 };
  */
 export default function Header(props: any) {
+  const [status, setStatus] = useState(false)
   return (
     <React.Fragment>
      <CssBaseline />
@@ -73,26 +75,33 @@ export default function Header(props: any) {
 
               </Typography>
               <ul>
+                {status === false ? 
+                 <li>
+                 <Link to={"/QuemSomos"} onClick={() => setStatus(true)} >Quem somos</Link>
+               </li>
+                : 
                 <li>
-                  <Link to="QuemSomos">Quem somos</Link>
+                  <Link to={"/"} onClick={() => setStatus(false)} >Quem somos</Link>
                 </li>
+
+                }
                 <li>
                   <a href="/.#beneficios">Benefícios</a >
                 </li>
                 <li>
                   <a href="/.#solucoes">Soluções</a>
                 </li>
-                <li>
+               {/*  <li>
                   <a href="/.#clientes">Clientes</a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a href="/.#depoimentos">Depoimentos</a>
-                </li>
+                </li> */}
                 <li>
                   <a href="/.#contato">Contato</a>
                 </li>
                 <li>
-                  <button>ENTRAR EM CONTATO</button>
+                  <button><a href="https://wa.me/558899276925" target="_blank">ENTRAR EM CONTATO</a></button>
                 </li>
               </ul>
             </nav>

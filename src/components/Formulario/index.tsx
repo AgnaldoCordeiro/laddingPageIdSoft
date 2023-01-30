@@ -1,10 +1,13 @@
 import emailjs from "emailjs-com";
+import { useState } from "react";
 import styles from "./styles.module.scss";
 
+
 export function Formulario() {
+  const [error, setError] = useState(""),
+  [success, setSuccess] = useState("");
   function sendEmail(e: any) {
     e.preventDefault();
-
     emailjs
       .sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE,
@@ -15,10 +18,10 @@ export function Formulario() {
 
       .then(
         (result: any) => {
-          alert("Mensagem enviada com sucesso! 👍");
+          setSuccess("Mensagem enviada com sucesso!");
         },
         (error: Error) => {
-          alert(error.message);
+          setError(error.message);
         }
       );
     e.target.reset();
@@ -27,7 +30,7 @@ export function Formulario() {
   return (
     <>
       <main className={styles.container}>
-        <form onSubmit={sendEmail}>
+        <form onSubmit={sendEmail} >
           <h6 className={styles.titulo}>Solicitar contato</h6>
           <div className={styles.inputField}>
             <input type="text" name="name" placeholder="Nome e Sobrenome" />
@@ -53,6 +56,9 @@ export function Formulario() {
             >
               Solicitar contato
             </button>
+            <p>
+              {success} {error}
+            </p>
           </div>
         </form>
       </main>

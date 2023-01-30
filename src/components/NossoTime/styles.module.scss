@@ -66,6 +66,228 @@
 
  
 }
+
+
+@media (max-width: 1024px) {
+  .container {
+    height: 100vh;
+    background: #FFFFFF;
+    transform: rotate(-0.03deg);
+  
+    background: url('../../assets/Group49.svg'),
+      url('../../assets/Group41.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top left, bottom right;
+  
+    color: #311629;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+  
+  
+  }
+  
+  
+  .subContainer {
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotate(-0.03deg);
+  
+    margin: 1rem;
+  
+    h3 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  .containerTime{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1240.57px;
+    height: 260.67px;
+  }
+  
+  .titulo {
+  
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    margin: 5rem;
+  
+    transform: rotate(-0.03deg);
+  }
+  
+  .timeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+  
+   
+  }
+  
+}
+
+
+
+@media (max-width: 912px) {
+  .container {
+    height: auto;
+    background: #FFFFFF;
+    transform: rotate(-0.03deg);
+  
+    background: url('../../assets/Group49.svg'),
+      url('../../assets/Group41.svg');
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: top left, bottom right;
+  
+    color: #311629;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+  
+  
+  }
+  
+  .subContainer {
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotate(-0.03deg);
+ 
+    margin: 1rem;
+  
+    h3 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .containerTime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height:auto;
+   
+  }
+  
+  
+  .titulo {
+  
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    margin: 1rem;
+  
+    transform: rotate(-0.03deg);
+  }
+  
+  .timeContainer {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 50px;
+  }
+}
+
+
+@media (max-width: 820px) {
+  .container {
+    height: auto;
+    background: #FFFFFF;
+    transform: rotate(-0.03deg);
+  
+    background: url('../../assets/Group49.svg'),
+      url('../../assets/Group41.svg');
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: top left, bottom right;
+  
+    color: #311629;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+  
+  
+  }
+  
+  .subContainer {
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotate(-0.03deg);
+ 
+    margin: 1rem;
+  
+    h3 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .containerTime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height:auto;
+   
+  }
+  
+  
+  .titulo {
+  
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    margin: 1rem;
+  
+    transform: rotate(-0.03deg);
+  }
+  
+  .timeContainer {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 50px;
+  }
+}
+
+
 @media (max-width: 414px) {
   .container {
     height: auto;

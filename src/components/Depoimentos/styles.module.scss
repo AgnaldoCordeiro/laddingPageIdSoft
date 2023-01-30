@@ -152,7 +152,12 @@
   order: 1;
   align-self: stretch;
   flex-grow: 0;
-
+  i {
+    cursor: pointer;
+  }
+  button {
+    border: none;
+  }
 
   p {
     font-family: 'Open Sans';
@@ -176,6 +181,8 @@
     span {
       font-weight: 400;
     }
+
+    
   }
 }
 

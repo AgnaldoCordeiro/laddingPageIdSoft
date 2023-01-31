@@ -34,13 +34,19 @@
   }
   nav ul li button{
     border: none;
+  } 
+
+  a.activate,
+  a:hover {
+    transition: 0.5s;
+    filter: brightness(0.5);
+    color: rgb(255, 254, 255);
   }
-  nav ul li button a{
+
+  .btnContato{  
     color: #FFFFFF;
     justify-content: center;
-    align-items: center;
-    padding: 8px 24px;
-    gap: 10px;
+    align-items: center;   
     /* Rosa escuro */
 
     background: #980138;
@@ -60,17 +66,6 @@
     flex-grow: 0;
   }
 
-  button:hover {
-    background-color: #dfb3c2;
-    transition: 0.5s;
-    border-radius: 2rem;
-  }
-  a.activate,
-  a:hover {
- 
-    transition: 0.5s;
-    border-radius: 2rem;
-  }
   .checkbtn {
     font-size: 30px;
     color: #980138;

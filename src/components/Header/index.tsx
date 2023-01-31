@@ -101,7 +101,7 @@ export default function Header(props: any) {
                   <a href="/.#contato">Contato</a>
                 </li>
                 <li>
-                  <button><a href="https://wa.me/558899276925" target="_blank">ENTRAR EM CONTATO</a></button>
+                  <a href="https://wa.me/558899276925" target="_blank" className={styles.btnContato}>ENTRAR EM CONTATO</a>
                 </li>
               </ul>
             </nav>

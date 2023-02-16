@@ -75,16 +75,7 @@ export default function Header(props: any) {
 
               </Typography>
               <ul>
-                {status === false ? 
-                 <li>
-                 <Link to={"/QuemSomos"} onClick={() => setStatus(true)} >Quem somos</Link>
-               </li>
-                : 
-                <li>
-                  <Link to={"/"} onClick={() => setStatus(false)} >Quem somos</Link>
-                </li>
-
-                }
+            
                 <li>
                   <a href="/.#beneficios">Benefícios</a >
                 </li>
@@ -100,9 +91,20 @@ export default function Header(props: any) {
                 <li>
                   <a href="/.#contato">Contato</a>
                 </li>
+                {status === false ? 
+                 <li>
+                 <Link to={"/QuemSomos"} onClick={() => setStatus(true)} >Quem somos</Link>
+               </li>
+                : 
+                <li>
+                  <Link to={"/"} onClick={() => setStatus(false)} >Quem somos</Link>
+                </li>
+
+                }
                 <li>
                   <a href="https://wa.me/558899276925" target="_blank" className={styles.btnContato}>ENTRAR EM CONTATO</a>
                 </li>
+                
               </ul>
             </nav>
          </Toolbar> 

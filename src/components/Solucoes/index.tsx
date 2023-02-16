@@ -16,7 +16,7 @@ export function Solucoes() {
         <p>A inteligência artificial é altamente versátil podendo ser utilizada em qualquer área</p>
       </div>
       <div className={styles.containerCards}>
-        <div>        
+        <div className={styles.containerLinha}>        
           <div className={styles.cards}>
             <CardImg height={"300px"} width={"332,86px"} title="Análise de dados para recomendações" img={group47} subTexto="Mecanismos de busca que combinam as preferências do usuário com histórico de dados a fim de indicar a melhor escolha." />
           </div>          

@@ -16,7 +16,9 @@ export function CardImg({ title, img, subTexto,width, height  }: CardProps) {
         <img src={img} alt={title} width={width} height={height} id={styles.img}/>
       </div>
       <div className={styles.card}>
+        
         <div className={styles.tituloCard}>
+          
           <h6>{title}</h6>
           <p>{subTexto}</p>
          {/*  <Link to="SaibaMais"><a>Saiba mais <i> <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">

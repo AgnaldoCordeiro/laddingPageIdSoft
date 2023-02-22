@@ -8,6 +8,7 @@ import styles from "./styles.module.scss";
 
 
 
+
 export function Solucoes() {
   return (
     <section className={styles.container} id="solucoes">

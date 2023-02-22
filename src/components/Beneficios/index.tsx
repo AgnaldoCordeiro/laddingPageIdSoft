@@ -31,8 +31,13 @@ useEffect(() => {
       <div className={styles.subContainer}>
 
         <div className={styles.containerTitulo}>
-          <h3 className={styles.titulo}>Contribuições da <br /> inteligência artificial <br /> para a sua empresa</h3>
+          {/* <h3 className={styles.titulo}>Contribuições da <br /> inteligência artificial <br /> para a sua empresa</h3> */}
+
+          <h3 className={styles.titulo}>
+    Contribuições da inteligência artificial para a sua empresa
+  </h3>
         {/*   <ButtonSaibaMais /> */}
+
         </div>
       
           {style === false ? 
@@ -56,7 +61,6 @@ useEffect(() => {
         </div>  
         <div className={styles.cardContainer2}>
           <CardBeneficios img={agilizar} title="Agilidade no cruzamento e análise de dados" />
-
           <CardBeneficios img={decisao} title="Auxilio na tomada de decisões mais assertivas" />
         </div>
         <div className={styles.cardContainer2}>

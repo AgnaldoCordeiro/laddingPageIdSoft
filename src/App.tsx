@@ -1,4 +1,4 @@
-import './App.scss'
+import './App.module.scss'
 import { Beneficios } from './components/Beneficios'
 import { Contato } from './components/Contato'
 import { Depoimentos } from './components/Depoimentos'

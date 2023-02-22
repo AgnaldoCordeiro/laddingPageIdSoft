@@ -1,22 +1,32 @@
 .container {
-  height: 100vh;
-
-
+  height: auto;
+  padding: 10px;
   display: block;
-  background: #FFFFFF;
   background-image: url('../../assets/Group30.svg');
   background-repeat: no-repeat;
   background-size: auto;
   background-position: bottom left;
-
+  
 }
 
 .subContainer {
   display: flex;
   flex-direction: column;
   align-items: end;
-  margin: 5rem;
-  padding: 5rem;
+  padding: 1rem;
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .subContainer {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
 }
 
 

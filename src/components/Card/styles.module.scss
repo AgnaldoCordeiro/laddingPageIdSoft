@@ -46,6 +46,9 @@
   }
 }
 
+.card:hover{
+  transform: translateY(-5px);
+}
 
 
 @media (max-width: 912px) {

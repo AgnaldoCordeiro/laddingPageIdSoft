@@ -1,9 +1,32 @@
 .container {
   height: calc(100vh - 4rem);
-
   background: #980138;
   color: #ffffff;
   display: flex;
+}
+
+
+
+.containerTitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.titulo {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 851px) {
+  .titulo {
+    white-space: normal;
+    word-wrap: break-word;
+
+  }
 }
 
 .subContainer {
@@ -32,9 +55,11 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 10px;
 
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2px;
 
 
   /* Inside auto layout */

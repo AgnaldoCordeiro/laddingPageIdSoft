@@ -12,11 +12,11 @@ interface CardProps {
 export function CardImg({ title, img, subTexto,width, height  }: CardProps) {
   return (
     <div className={styles.subContainer}>
-      <div className={styles.imagem}>
+         <div className={styles.imagem}>
         <img src={img} alt={title} width={width} height={height} id={styles.img}/>
       </div>
       <div className={styles.card}>
-        
+  
         <div className={styles.tituloCard}>
           
           <h6>{title}</h6>

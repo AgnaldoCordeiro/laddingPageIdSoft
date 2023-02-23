@@ -3,7 +3,7 @@
   height: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   padding: 0rem;
   margin: 0;
@@ -18,9 +18,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  padding: 24px 8px 24px 50px;
   gap: 25px;
-  margin: -2.5rem;
+  margin: -1.5rem;
   width: 403px;
   height: 208.23px;
   background: #FFFFFF;
@@ -37,10 +36,7 @@
   width: 200px;
   height: 200px;
   padding: 1.5rem;
-  
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
+
   
 }
 
@@ -638,7 +634,7 @@
     width: 25.1875rem;
     height: 13.014375rem;
   
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
   
@@ -877,13 +873,12 @@
   
     gap: auto;
   }
-  
-  .card {
-   
+  // movel
+  .card { 
+    width: 80%;
+
     padding: 0;
     gap: 0;
-    width: auto;
-    height: auto;
     margin-right: auto;
   
     background: #FFFFFF;
@@ -895,10 +890,10 @@
   
   .imagem {
     position: relative;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+    width: 20%;
+    height: auto;
+    
+  
 
   }
   

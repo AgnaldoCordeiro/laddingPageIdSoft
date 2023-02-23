@@ -8,7 +8,6 @@ import styles from "./styles.module.scss";
 
 
 
-
 export function Solucoes() {
   return (
     <section className={styles.container} id="solucoes">
@@ -20,15 +19,17 @@ export function Solucoes() {
         <div className={styles.containerLinha}>        
           <div className={styles.cards}>
             <CardImg height={"300px"} width={"332,86px"} title="Análise de dados para recomendações" img={group47} subTexto="Mecanismos de busca que combinam as preferências do usuário com histórico de dados a fim de indicar a melhor escolha." />
-          </div>          
+          </div>    
+          <div className={styles.cards}>
+            <CardImg  height={"300px"} width={"332,86px"} title="Diagnóstico de indicadores" img={group48} subTexto="A partir dos dados da empresa, verifique quais ações feitas estão dando resultados e quais os principais problemas que precisam ser resolvidos." />
+          </div>        
           <div className={styles.cards}>
             <CardImg height={"300px"} width={"332,86px"}  title="Organização de processos" img={group45} subTexto="Gerenciamento do seu negócio a partir do controle de processos, visando otimizar o desenvolvimento de todas as atividades da sua empresa." />
-          </div>                 
+          </div>  
+                   
         </div>  
         <div>
-        <div className={styles.cards}>
-            <CardImg height={"400px"} width={"400,86px"} title="Diagnóstico de indicadores" img={group48} subTexto="A partir dos dados da empresa, verifique quais ações feitas estão dando resultados e quais os principais problemas que precisam ser resolvidos." />
-          </div> 
+       
           </div>     
       </div>
 

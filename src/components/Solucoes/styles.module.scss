@@ -65,7 +65,8 @@
   padding: 0;
   gap: 10px;
 
-
+  flex-wrap: wrap;
+  justify-content: space-between;
 
   /* Inside auto layout */
 
@@ -74,8 +75,21 @@
   flex-grow: 1;
 }
 
+@media only screen and (max-width: 768px) {
+  .containerCards {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+  }
+}
+
 .cards {
   margin-top: 2rem;
+
+}
+
+.cards:nth-child(3) {
+  flex-basis: 100%;
 }
 
 @media only screen and (max-width: 768px) {

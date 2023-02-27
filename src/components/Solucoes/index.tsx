@@ -10,6 +10,7 @@ import styles from "./styles.module.scss";
 
 export function Solucoes() {
   return (
+
     <section className={styles.container} id="solucoes">
       <div className={styles.titulo}>
         <h4>Conheça algumas de nossas soluções</h4>
@@ -23,16 +24,17 @@ export function Solucoes() {
           <div className={styles.cards}>
             <CardImg  height={"300px"} width={"332,86px"} title="Diagnóstico de indicadores" img={group48} subTexto="A partir dos dados da empresa, verifique quais ações feitas estão dando resultados e quais os principais problemas que precisam ser resolvidos." />
           </div>        
-          <div className={styles.cards}>
-            <CardImg height={"300px"} width={"332,86px"}  title="Organização de processos" img={group45} subTexto="Gerenciamento do seu negócio a partir do controle de processos, visando otimizar o desenvolvimento de todas as atividades da sua empresa." />
-          </div>  
+         
                    
         </div>  
         <div>
-       
+        <div className={styles.cards}>
+            <CardImg height={"300px"} width={"332,86px"}  title="Organização de processos" img={group45} subTexto="Gerenciamento do seu negócio a partir do controle de processos, visando otimizar o desenvolvimento de todas as atividades da sua empresa." />
+          </div>  
           </div>     
       </div>
 
     </section >
+
   )
 }

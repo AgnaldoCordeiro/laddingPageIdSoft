@@ -11,7 +11,7 @@ import flexibilidade from '../../assets/flexibilidade.png'
 
 export function NossosValores() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="valores">
       <div className={styles.subContainer}>
         <h3 className={styles.titulo}>Nossos valores</h3>
        <div className={styles.containerValores}>

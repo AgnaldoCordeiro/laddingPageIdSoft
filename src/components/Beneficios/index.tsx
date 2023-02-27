@@ -27,6 +27,7 @@ useEffect(() => {
 }, [divRef.current]);
 
   return (
+    <div >
     <section className={styles.container} id="beneficios" ref={divRef}>
       <div className={styles.subContainer}>
 
@@ -74,5 +75,6 @@ useEffect(() => {
       </div>
 
     </section>
+    </div>
   )
 }

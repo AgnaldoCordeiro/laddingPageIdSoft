@@ -80,7 +80,7 @@ export default function Header(props: any) {
                   <a href="/.#beneficios">Benefícios</a >
                 </li>
                 <li>
-                  <a href="/.#solucoes">Soluções</a>
+                  <a href="/#solucoes">Soluções</a>
                 </li>
                {/*  <li>
                   <a href="/.#clientes">Clientes</a>
@@ -93,7 +93,7 @@ export default function Header(props: any) {
                 </li>
                 {status === false ? 
                  <li>
-                 <Link to={"/QuemSomos"} onClick={() => setStatus(true)} >Quem somos</Link>
+                 <Link to={"/QuemSomos#quem-somos"} onClick={() => setStatus(true)} >Quem somos</Link>
                </li>
                 : 
                 <li>

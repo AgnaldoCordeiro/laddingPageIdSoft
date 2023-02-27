@@ -1,11 +1,9 @@
 .container {
-  height: calc(100vh - 4rem);
+  height: calc(110vh - 4rem);
   background: #980138;
   color: #ffffff;
   display: flex;
 }
-
-
 
 .containerTitulo {
   display: flex;
@@ -75,9 +73,9 @@
   align-items: flex-start;
   padding: 0px;
   gap: 10px;
-  font-size: 13px;
-  width: 783px;
-  height: 175.5px;
+  font-size: 15px;
+  width: 950px;
+  height: 165.5px;
 
   /* Inside auto layout */
   flex: none;

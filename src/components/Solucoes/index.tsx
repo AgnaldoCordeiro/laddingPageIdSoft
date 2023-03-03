@@ -5,13 +5,16 @@ import group47 from '../../assets/Group47.png'
 import { CardImg } from '../CardImg';
 import styles from "./styles.module.scss";
 
+interface SolucoesProps {
+  id: string;
+}
 
 
 
-export function Solucoes() {
+export function Solucoes({ id }: SolucoesProps) {
   return (
-
-    <section className={styles.container} id="solucoes">
+    <div id="solucoes" className={styles.geral}>
+    <section  className={styles.container} onClick={(event) => console.log(event.currentTarget.id)}>
       <div className={styles.titulo}>
         <h4>Conheça algumas de nossas soluções</h4>
         <p>A inteligência artificial é altamente versátil podendo ser utilizada em qualquer área</p>
@@ -27,14 +30,13 @@ export function Solucoes() {
          
                    
         </div>  
-        <div>
         <div className={styles.cards}>
             <CardImg height={"300px"} width={"332,86px"}  title="Organização de processos" img={group45} subTexto="Gerenciamento do seu negócio a partir do controle de processos, visando otimizar o desenvolvimento de todas as atividades da sua empresa." />
-          </div>  
           </div>     
       </div>
 
     </section >
+    </div>
 
   )
 }

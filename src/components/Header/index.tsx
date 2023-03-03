@@ -77,7 +77,7 @@ export default function Header(props: any) {
               <ul>
             
                 <li>
-                  <a href="/.#beneficios">Benefícios</a >
+                  <a href="/#beneficios">Benefícios</a >
                 </li>
                 <li>
                   <a href="/#solucoes">Soluções</a>
@@ -89,7 +89,7 @@ export default function Header(props: any) {
                   <a href="/.#depoimentos">Depoimentos</a>
                 </li> */}
                 <li>
-                  <a href="/.#contato">Contato</a>
+                  <a href="/#contato">Contato</a>
                 </li>
                 {status === false ? 
                  <li>

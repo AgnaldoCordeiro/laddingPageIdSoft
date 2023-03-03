@@ -29,7 +29,7 @@ export function Formulario() {
 
   return (
     <>
-      <main className={styles.container}>
+      <main className={styles.container} id="formulario">
         <form onSubmit={sendEmail} >
           <h6 className={styles.titulo}>Solicitar contato</h6>
           <div className={styles.inputField}>

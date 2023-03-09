@@ -25,6 +25,7 @@ useEffect(() => {
   }
 
 }, [divRef.current]);
+console.log('>>',window.innerWidth, window.innerHeight);
 
   return (
     <div >

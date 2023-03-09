@@ -5,6 +5,8 @@
   display: flex;
 }
 
+
+
 .containerTitulo {
   display: flex;
   flex-direction: column;
@@ -76,7 +78,6 @@
   font-size: 15px;
   width: 950px;
   height: 165.5px;
-
   /* Inside auto layout */
   flex: none;
   order: 0;
@@ -92,6 +93,8 @@
     height: auto;
   }
 }
+
+
 
 
 @media (max-width: 1350px)  {
@@ -172,7 +175,7 @@
 
 
   .container {
-    height: calc(100vh - 4rem);
+    height: calc(110vh - 4rem);
   
     background: #980138;
     color: #ffffff;

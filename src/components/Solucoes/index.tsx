@@ -11,8 +11,8 @@ interface SolucoesProps {
 
 export function Solucoes({ id }: SolucoesProps) {
   const screenWidth = window.innerWidth;
-  const cardWidth = screenWidth > 1200 ? "332.86px" : "132.86px";
-  const cardHeight = screenWidth > 1200 ? "300px" : "200px";
+  const cardWidth = screenWidth > 1400 ? "300.86px" : "300.86px";
+  const cardHeight = screenWidth > 1400 ? "300.86px" : "200px";
 
   return (
     <div id="solucoes" className={styles.geral}>

@@ -131,23 +131,24 @@
     flex-direction: row;
     padding: 0rem;
     margin: 0;
-  
+    margin: 1rem;
+    margin-top: -2rem;
     gap: auto;
   }
-  
+  //grande
   .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    padding: 1.5rem 0.5rem 1.5px 3.125rem;
-    gap: 1.5625rem;
+    padding: 0rem 0.5rem 1.5px 3.125rem;
+    gap: 1;
     margin: -2.5rem;
   
-    width: 25.1875rem;
-    height: auto;
+    width: auto;
+    height: 7rem;
   
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
   
@@ -158,9 +159,9 @@
     position: relative;
     display: flex;
     align-items: center;
-    width: 12.5rem;
-    height: 12.5rem;
-    margin-right: 1rem;
+    width:10rem;
+    height: 10rem;
+    margin-right: 1.2rem;
   }
   
   .tituloCard {
@@ -168,10 +169,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0.2rem;
     gap: 1.25rem;
   
-    width: 17.25rem;
+    width: 18.25rem;
     height: auto;
 
   
@@ -179,7 +179,7 @@
       font-family: 'Plus Jakarta Sans';
       font-style: normal;
       font-weight: 700;
-      font-size: 1rem;
+      font-size: 0.8rem;
       line-height: 1.4375rem;
       /* identical to box height */
   
@@ -200,8 +200,10 @@
       font-family: 'Plus Jakarta Sans';
       font-style: normal;
       font-weight: 400;
-      font-size: 0.9rem;
+      font-size: 0.7rem;
       line-height: 1.125rem;
+
+      margin-bottom: 10px;
   
       /* Roxo */
   

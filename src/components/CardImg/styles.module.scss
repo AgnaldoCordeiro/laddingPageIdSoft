@@ -2,13 +2,12 @@
 
 
 .subContainer {
-  width: auto;
-  height: auto;
+  
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
-  padding: 0rem;
+  padding: 1rem;
   margin: 0;
   gap: 0.5rem;
   
@@ -27,7 +26,6 @@
   background: #FFFFFF;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
-
 
 }
 
@@ -120,8 +118,14 @@
   }
 }
 
+@media(min-width: 1600px){
+  .card {
+    width: 450px;
+  }
+}
 
-@media(max-width: 1350px){
+
+@media(max-width: 1360px){
   .subContainer {
     width: auto;
     height: auto;
@@ -146,9 +150,9 @@
     margin: -2.5rem;
   
     width: auto;
-    height: 7rem;
+    height: 8rem;
   
-    background: #ffffff;
+    background: #c77575;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
   

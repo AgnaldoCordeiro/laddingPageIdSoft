@@ -1,3 +1,8 @@
+.geral {
+  background: #f2f2f2;
+  padding: 1rem;
+}
+
 .container {
   background: #F3F2F2;
   display: flex;
@@ -16,50 +21,7 @@
     padding: 2rem;
   }
 
-  @media only screen and (max-width: 950px) {
-    height: auto;
-    padding: 2rem;
-  }
-
-  @media only screen and (max-width: 820px) {
-    height: auto;
-    padding: 2rem;
-  }
-
-  @media only screen and (max-width: 540px) {
-    height: auto;
-    padding: 2rem;
-  }
-
   @media only screen and (max-width: 414px) {
-    height: auto;
-    padding: 1rem;
-  }
-
-  @media only screen and (max-width: 375px) {
-    height: auto;
-    padding: 1rem;
-  }
-
-  @media only screen and (max-width: 280px) {
-    height: auto;
-    padding: 1rem;
-  }
-}
-
-.geral {
-  background: #f2f2f2;
-  padding: 1rem;
-
-  @media only screen and (max-width: 414px) {
-    padding: 1rem;
-  }
-
-  @media only screen and (max-width: 375px) {
-    padding: 1rem;
-  }
-
-  @media only screen and (max-width: 280px) {
     padding: 1rem;
   }
 }
@@ -110,10 +72,6 @@
   }
 }
 
-.containerLinha {
-  display: flex;
-  flex-direction: row;
-}
 .containerCards {
   display: flex;
   align-items: center;
@@ -122,15 +80,22 @@
   gap: 10px;
   flex-wrap: wrap;
   justify-content: space-between;
-  
+
   /* Inside auto layout */
   flex: none;
   order: 1;
   flex-grow: 1;
-  
+
   @media only screen and (max-width: 768px) {
-  flex-direction: column;
-  align-items: stretch;
-  gap: 20px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
   }
-  }
+}
+
+.containerLinha {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

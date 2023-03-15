@@ -42,8 +42,8 @@ export function Solucoes({ id }: SolucoesProps) {
             </div>
             <div className={styles.cardWrapper}>
             <CardImg
-              height="350px"
-              width="350px"
+              height="300px"
+              width="300px"
               title="Organização de processos"
               img={group45}
               subTexto="Gerenciamento do seu negócio a partir do controle de processos, visando otimizar o desenvolvimento de todas as atividades da sua empresa."

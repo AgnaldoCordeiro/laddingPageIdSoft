@@ -1,29 +1,22 @@
-import './App.module.scss'
-import { Beneficios } from './components/Beneficios'
-import { Contato } from './components/Contato'
-import { Depoimentos } from './components/Depoimentos'
-import { Footer } from './components/Footer'
-import Header from './components/Header'
-import { Home } from './components/home'
-import { Solucoes } from './components/Solucoes'
-import styles from './styles.module.scss'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ButtonAppBar from './components/ButtonAppBar';
+import QuemSomos from './pages/QuemSomos';
+import Footer from './components/Footer';
+import Principal from './pages/Principal';
 
 function App() {
-
-
   return (
-    <div className={styles.container} >
-     <Header />
-      <Home />
-      <Beneficios />
-      <Solucoes id="solucoes" />
-      {/* <Depoimentos /> */}
-      <Contato />
-      <Footer /> 
-
+    <div className="App">
+      <Router>
+        <ButtonAppBar />
+        <Routes>
+          <Route path="/" element={<Principal />} />
+          <Route path="/quem-somos" element={<QuemSomos />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
-  )
+  );
 }
 
-export default App
-
+export default App;

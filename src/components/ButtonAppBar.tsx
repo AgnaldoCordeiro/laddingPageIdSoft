@@ -54,7 +54,7 @@ function ButtonAppBar() {
               IDSoft
             </Button>
           </Link>
-          {window.innerWidth < 500 ? (
+          {window.innerWidth < 600 ? (
             <IconButton
               size="large"
               edge="end"
@@ -102,7 +102,6 @@ function ButtonAppBar() {
               <Button component={Link} to="/quem-somos#bannerquemsomos" color="inherit"   sx={{
     color: '#980138',
     m: '0.5rem', 
-
     fontWeight: '400',
     '&:hover': {
       backgroundColor: '#980138',

@@ -23,7 +23,7 @@ const Card: React.FC<CardProps> = ({ titulo, texto, imagem }) => {
   } else if (innerWidth > 600 && innerWidth < 960) {
     fontSize = '0.8rem';
     imageSize = '10rem';
-    widthCard = '75vw';
+    widthCard = '40vw';
   } else if (innerWidth >= 960 && innerWidth < 1280) {
     fontSize = '1rem';
     imageSize = '8.5rem';

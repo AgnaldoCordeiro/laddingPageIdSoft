@@ -1,4 +1,4 @@
-﻿# Grupo IDSOFT
+﻿## Grupo IDSOFT
 
 Desenvolvemos softwares empregando inteligência artificial minimizando erros e economizando seu tempo e dinheiro.  
   
@@ -10,10 +10,6 @@ Allef R. Schmidt - Desenvolvedor Frontend
 Agnaldo Cordeiro - Desenvolvedor Fullstack
 Felipe Moreira - Engenheiro de Dados
 Pedro Carrera - Social Media
-
-
-# Fluxo de Desenvolvimento
-
 
 ```mermaid
 graph LR

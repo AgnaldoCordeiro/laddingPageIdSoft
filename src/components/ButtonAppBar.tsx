@@ -68,9 +68,7 @@ function ButtonAppBar() {
             <>
     <Button component={Link} to="/#beneficios" color="inherit"   sx={{
     color: '#980138',
-    fontSize: '1rem',
     fontWeight: '400',
-
     '&:hover': {
       backgroundColor: '#980138',
       color: 'white',
@@ -81,7 +79,7 @@ function ButtonAppBar() {
               <Button component={Link} to="/#solucoes" color="inherit"   sx={{
     color: '#980138',
     m: '0.5rem',
-    fontSize: '1rem',
+
     fontWeight: '400',
     '&:hover': {
       backgroundColor: '#980138',
@@ -93,7 +91,6 @@ function ButtonAppBar() {
               <Button component={Link} to="/#contato" color="inherit"   sx={{
     color: '#980138',
     m: '0.5rem',
-    fontSize: '1rem',
     fontWeight: '400',
     '&:hover': {
       backgroundColor: '#980138',
@@ -104,7 +101,8 @@ function ButtonAppBar() {
               </Button>
               <Button component={Link} to="/quem-somos#bannerquemsomos" color="inherit"   sx={{
     color: '#980138',
-    m: '0.5rem', fontSize: '1rem',
+    m: '0.5rem', 
+
     fontWeight: '400',
     '&:hover': {
       backgroundColor: '#980138',
@@ -115,8 +113,8 @@ function ButtonAppBar() {
               </Button>
               <Button href='https://api.whatsapp.com/send?phone=558899276925&text=Ol%C3%A1,%20acabo%20de%20visualizar%20o%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20IDSOFT.' color="inherit" sx={{
                   backgroundColor: '#980138',
+
                   borderRadius: '20px',
-                  fontSize: '1rem',
                   fontWeight: '400',
                   color: '#ffffff',
                    '&:hover': {

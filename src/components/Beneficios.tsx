@@ -15,24 +15,7 @@ const StyledBox = styled(Box)(({ theme }) => ({
   backgroundColor: '#980138',
 }));
 
-const StyledTypography = styled(Typography)(({ theme }) => ({
-  color: '#FFFFFF',
-  fontWeight: 'bold',
-  textAlign: 'center',
-  alignSelf: 'center',
-  [theme.breakpoints.down('sm')]: {
-    fontSize: '1rem',
-  },
-  [theme.breakpoints.down('xs')]: {
-    fontSize: '1rem',
-  },
-  [theme.breakpoints.down('md')]: {
-    fontSize: '1.5rem',
-  },
-  [theme.breakpoints.up('lg')]: {
-    fontSize: '2rem',
-  },
-}));
+
 
 const StyledImage = styled('img')(({ theme }) => ({
   maxWidth: '70%',
@@ -84,7 +67,10 @@ function Beneficios() {
   const cardsPerPage = columns * rows;
   const pagesCount = Math.ceil(cards.length / cardsPerPage);
 
-  const StyledPaper = styled(Paper)(({ theme }) => ({
+  const { innerWidth } = window;
+  let sizeFont = '1rem';
+  let subSizeFont = '0.8rem';
+    const StyledPaper = styled(Paper)(({ theme }) => ({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'flex-start',
@@ -95,8 +81,11 @@ function Beneficios() {
     boxShadow: 'initial',
     height: '60%',
     width: '70%',
+    [theme.breakpoints.up('xs')]: {
+      width: '60%',
+    },
     [theme.breakpoints.up('sm')]: {
-      width: '80%',
+      width: '75%',
     },
     [theme.breakpoints.up('md')]: {
       width: '80%',
@@ -105,30 +94,56 @@ function Beneficios() {
       width: '80%',
     },
   }));
+
   
+  if (innerWidth <= 600) {
+    sizeFont = '1.5rem';
+    subSizeFont = '0.8rem';
+  } else if (innerWidth > 600 && innerWidth < 960) {
+    sizeFont = '2rem';
+    subSizeFont = '0.8rem';
+  } else if (innerWidth >= 960 && innerWidth < 1280) {
+    sizeFont = '2rem';
+    subSizeFont = '0.8rem';
+  } else if (innerWidth > 1280 && innerWidth < 1600) {
+    sizeFont = '2rem';
+    subSizeFont = '0.9rem';
+  } else if (innerWidth >= 1600) {
+    sizeFont = '2rem';
+    subSizeFont = '1.2rem';
+
+  }
+  //             fontSize: { xs: '0.8rem', sm: '0.8remrem', md: '0.8rem', lg: '1rem', xl: '1.2rem' },
+
   return (
     <StyledBox>
       <Grid container  >
-        <Grid item xs={12} md={4} sx={{ display: 'flex',  alignItems: 'center' }} >
-          <StyledTypography>
+  
+        <Grid item xs={12} md={12} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: { xs: 'column', sm: 'column', md: 'column', lg: 'row',  } }}
+>      
+          <Typography sx={{
+            fontSize: { xs: sizeFont, sm: sizeFont, md: sizeFont, lg: sizeFont },
+            color: '#FFFF',  fontWeight: 'bold',
+            textAlign: 'center',
+            padding: 1,
+            alignSelf: 'center'}}>
             Contribuições da inteligência artificial para a sua empresa
-          </StyledTypography>
-        </Grid>
+          </Typography>
 
-        <Grid item xs={12} md={8} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: { xs: 'column', md: 'column' } }}
->
           {Array.from({ length: pagesCount }, (_, page) => {
             const startIndex = page * cardsPerPage;
             const cardsToRender = cards.slice(startIndex, startIndex + cardsPerPage);
             return (
               <>
               <Grid key={page} container alignItems="strech" justifyContent="right" alignContent="center"  >
-                
                 {cardsToRender.map((card, index) => (
                   <Grid key={index} item xs={12 / columns} md={4} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <StyledPaper>
                       {card.icon}
-                      <Typography sx={{ marginTop: '1rem' }}>{card.text}</Typography>
+                      <Typography  sx={{
+            fontSize: { xs: subSizeFont, sm: subSizeFont, md: subSizeFont, lg: subSizeFont, xl: subSizeFont },
+            color: '#000',
+          }}>{card.text}</Typography>
                     </StyledPaper>
                   </Grid>
                 ))}

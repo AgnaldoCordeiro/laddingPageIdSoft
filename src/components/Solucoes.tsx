@@ -55,7 +55,7 @@ const Solucoes = () => {
           A inteligência artificial é altamente versátil podendo ser utilizada em qualquer área
         </Typography>
 
-        <Grid container spacing={1} sx={{  justifyContent: 'center' }}>
+        <Grid container spacing={1} sx={{  justifyContent: 'center', flexDirection: 'row' }}>
           
   <Grid item xs={12} sm={6}  >
     <Card

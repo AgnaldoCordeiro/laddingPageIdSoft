@@ -12,21 +12,29 @@ const Card: React.FC<CardProps> = ({ titulo, texto, imagem }) => {
   const theme = useTheme()
   let fontSize = '1rem';
   let imageSize = '15rem';
+  let widthCard = '35vw';
+//  width: {xl: '35vw', lg: '35vw', md: '54vw', sm: '75vw', xs: '80vw'},
+
 
   if (innerWidth <= 600) {
     fontSize = '0.6rem';
     imageSize = '9rem';
+    widthCard = '80vw';
   } else if (innerWidth > 600 && innerWidth < 960) {
-    fontSize = '1rem';
-    imageSize = '12rem';
+    fontSize = '0.8rem';
+    imageSize = '10rem';
+    widthCard = '75vw';
   } else if (innerWidth >= 960 && innerWidth < 1280) {
     fontSize = '1rem';
-    imageSize = '15rem';
+    imageSize = '8.5rem';
+    widthCard = '50vw';
   } else if (innerWidth > 1280 && innerWidth < 1600) {
     fontSize = '1rem';
   } else if (innerWidth >= 1600) {
-    fontSize = '1.6rem';
-    imageSize = '20rem'
+    fontSize = '1.2rem';
+    imageSize = '18rem'
+    widthCard = '35vw';
+
   }
 
   return (
@@ -41,8 +49,8 @@ const Card: React.FC<CardProps> = ({ titulo, texto, imagem }) => {
         sx={{
           background: '#FFF',
           textAlign: 'left',
-          width: {xl: '35vw', lg: '35vw', md: '35vw', sm: '75vw', xs: '80vw'},
-          padding: {xl: 3, lg: 4, md:4, sm:4, xs:1},
+          width: {xl: widthCard, lg: widthCard, md: widthCard, sm: widthCard, xs: widthCard},
+          padding: {xl: 3, lg: 4, md:3, sm:4, xs:1},
           borderRadius: 4,
           boxShadow: '0px 2px 2px rgba(0, 0, 0, 0.1)',
           position: 'absolute',
@@ -62,7 +70,7 @@ const Card: React.FC<CardProps> = ({ titulo, texto, imagem }) => {
               lg: fontSize,
               xl: fontSize,
             },
-            ml: {xl: '12rem', lg: '12rem', md: '10rem', sm: '10rem', xs: '7rem'},
+            ml: {xl: '12rem', lg: '12rem', md: '8rem', sm: '10rem', xs: '7rem'},
             color: '#980138',
             fontWeight: 500,
             mt: 0,
@@ -84,7 +92,7 @@ const Card: React.FC<CardProps> = ({ titulo, texto, imagem }) => {
             color: '#000',
             fontWeight: 300,
             mt: 1,
-            ml: {xl: '12rem', lg: '12rem', md: '11rem', sm: '10rem', xs: '7rem'},
+            ml: {xl: '12rem', lg: '12rem', md: '7rem', sm: '10rem', xs: '7rem'},
             overflowWrap: 'break-word',
             wordWrap: 'break-word',
           }}
